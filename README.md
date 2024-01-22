@@ -10,5 +10,14 @@ This simple application is developed as a requirement for the Application Develo
 
 ## Setup
 1. Install the required Python packages:
-   ```bash
+   ```
    pip install streamlit mysql-connector-python
+2. Configure your MySQL database connection details in the application code.
+
+## Usage
+Run the application using the following command:
+   ```
+   streamlit run your_app_name.py
+
+
+
