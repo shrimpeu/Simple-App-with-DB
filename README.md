@@ -18,6 +18,3 @@ This simple application is developed as a requirement for the Application Develo
 Run the application using the following command:
    ```
    streamlit run your_app_name.py
-
-
-
