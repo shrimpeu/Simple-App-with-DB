@@ -3,11 +3,11 @@ import streamlit as st
 
 # Establish a connection to mysql server
 db_config = mysql.connector.connect(
+    # Replace these values with your database connection details
     host='localhost',
     user='root',
     password='mYsT4nd4rdQu3rYL4ngu4g3',
     database='simpleapp_db',
-    # Replace these values with your database connection details
 )
 
 # Create a cursor for executing queries
