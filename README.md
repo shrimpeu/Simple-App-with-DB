@@ -8,6 +8,13 @@ This simple application is developed as a requirement for the Application Develo
 - Streamlit
 - MySQL database
 
+  ## Database Setup
+The application requires a MySQL database with the following structure:
+
+- `student_id` (varchar)
+- `name` (varchar)
+- `webmail` (varchar)
+
 ## Setup
 1. Install the required Python packages:
    ```
