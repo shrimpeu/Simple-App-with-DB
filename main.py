@@ -20,7 +20,7 @@ db_config = mysql.connector.connect(
 mycursor = db_config.cursor()
 
 def main():
-    st.title("Simple CRUD App with MySQL")
+    st.title("PUP Student Records Management System")
 
     # Operation selection (Create, Read, Update, Delete) using select box
     operation = st.sidebar.selectbox("Select an Operation", ("Create", "Read", "Update", "Delete"))
