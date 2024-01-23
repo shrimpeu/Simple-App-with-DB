@@ -1,3 +1,9 @@
+"""
+Simple PUP Student Records Management System with Basic CRUD Operations
+
+This application demonstrates basic CRUD (Create, Read, Update, Delete) operations using a MySQL database.
+"""
+
 import mysql.connector
 import streamlit as st
 
